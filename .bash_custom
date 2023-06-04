@@ -1,0 +1,8 @@
+# Executaveis instalados somente para esse usuáio
+export PATH="/home/weverton/.local/bin:$PATH"
+
+# Poetry
+export POETRY_VIRTUALENVS_IN_PROJECT="true"
+
+# Starship
+eval "$(starship init bash)"
